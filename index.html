@@ -1,0 +1,21 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+      <link rel="stylesheet" href="resources/style.css">
+      <script src="resources/script.js"></script>
+      <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    </head>
+
+  <body style='text-align: center;'>
+    <br>
+    <b><p>I am Generating a random number from 1 to 100 using Python! :)<br>
+    <label id='generatedNum' class="text-class"></label></b></p>
+    <py-script>
+from random import randint
+pyscript.write('generatedNum', randint(1, 100))
+    </py-script>
+    <img id="snake" src="./resources/images/Thinking_Snake.jpg" width="250" height="300" class="image-center">
+  </body>
+
+
+</html>

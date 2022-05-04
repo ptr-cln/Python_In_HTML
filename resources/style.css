@@ -1,0 +1,13 @@
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+  }
+  
+  .text-class {
+    color: red;
+    font-size: 70px;
+  }
